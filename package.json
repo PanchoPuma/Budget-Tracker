@@ -5,11 +5,12 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
     "webpack": "webpack --watch",
     "build": "webpack",
     "start:dev": "webpack-dev-server",
-    "start": "node server.js",
-    "lite-server": "lite-server"
+    "lite-server": "lite-server",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,7 @@
     "express": "^4.17.1",
     "logger": "0.0.1",
     "mongoose": "^5.13.8",
-    "morgan": "^1.9.1"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "webpack-dev-server": "^4.0.0",
