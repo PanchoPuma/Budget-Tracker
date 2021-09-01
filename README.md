@@ -3,7 +3,7 @@
 
 ## Description
 
-This repository contains an application that keeps track of your money by being able to add expenses and deposits to the budget
+This repository contains an application that keeps track of your money by allowing the user to add expenses and deposits to the budget
 
 ## Link to deployed application
 https://panchobudettracker.herokuapp.com/
